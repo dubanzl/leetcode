@@ -3,7 +3,7 @@ const coins = [1].sort((a, b)=> a - b);
 
  let change = 0;
 
- if(coins.length == 1){
+ if(coins.lnegth == 1){
    return 1;
  } 
  for (let index = 0; index < coins.length; index++) {

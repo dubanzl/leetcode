@@ -33,7 +33,8 @@ root.right = new BST(15)
 
 root.left.left = new BST(2)
 root.left.right = new BST(5)
-root.left.left.left = new BST(1)
+root.left.left.left = new BST(1) 
+
 
 root.right.left = new BST(13)
 root.right.right = new BST(22)
