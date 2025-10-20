@@ -17,7 +17,6 @@ async function main() {
     if (title.toLowerCase() === 'exit') break;
 
     const year = await ask("Enter the year: ");
-
     const detail = await ask("Enter the detail: ");
 
     // add to Map: key = title, value = object with details
