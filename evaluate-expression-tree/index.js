@@ -12,8 +12,8 @@ function evaluateTree(tree){
  if(tree.value >=0 ) return tree.value
 
 // Evaluate left and right sides
- const leftValue =  evaluateExpressionTree(tree.left)
- const rightValue =  evaluateExpressionTree(tree.right)
+ const leftValue =  evaluateTree(tree.left)
+ const rightValue =  evaluateTree(tree.right)
 
   // Apply the operation
  if (tree.value == -1)
