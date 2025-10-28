@@ -27,7 +27,7 @@ function minimumWaitingTime(queries) {
   let totalWaitingTime = 0
 
   for (let index = 0; index < queries.length; index++) {
-    totalWaitingTime += queries[index] * (queries.length - (index - 1));
+    totalWaitingTime += queries[index] * (queries.length - (index + 1));
   }
 }
 
