@@ -14,6 +14,7 @@
     Note: you can assume that each class has at least 2 students.
 
     Sample input
+    ---
     RedShirtHeights = [5, 8, 1, 3, 4]
     blueShirtHeights = [6, 9, 2, 4, 5]
     
