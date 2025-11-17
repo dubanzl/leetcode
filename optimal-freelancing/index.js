@@ -37,7 +37,7 @@ function optimalFreelancing(jobs) {
 
     // Find the latest available day before or on the deadline
     for (let time = maxTime - 1; time >= 0; time--) {
-      if (timeline[time] === false) {
+      if (timeline[time] === false ){
         timeline[time] = true;
         profit += job.payment;
         break;
