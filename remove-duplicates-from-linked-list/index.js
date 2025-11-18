@@ -53,7 +53,7 @@ function removeDuplicatesFromLinkedList(head) {
   }
 
   return head;
-}
+} 
 
 const newList = removeDuplicatesFromLinkedList(head);
 console.log(newList);
